@@ -1,0 +1,116 @@
+======================
+Nama : Nasyith Musyafa
+Kelas : AI-A
+======================
+
+Quiz 2 Version Control Git
+
+Buatlah analisis materi dengan topik Git. Analisis tersebut dikumpulkan dalam file bentuk txt
+
+Pengenalan Git, Gitlab - Github
+
+● Git
+
+- Pengenalan
+Git adalah singkatan dari Group Inclusive Tour. Git merupakan version control system yang gratis dan juga open source. 
+Git dirancang untuk menangani segala project baik itu project besar atau project sederhana. Git memungkinkan para 
+pengembang untuk bekerja secara bersama-sama pada proyek yang sama dan melacak setiap perubahan yang dilakukan pada 
+source code. Terdapat 2 sistem git, yaitu centralized dan distributed.
+
+- Fitur-Fitur Git
+1. Version control
+2. Git Branch
+3. Merging
+4. Staging area
+5. Git Rebase
+6. Hooks
+7. GUI tools
+
+- Keunggulan dan kelemahan Git
+> Kelebihan
+a. Dapat mengelola versi kode sumber dengan mudah dan efisien.
+b. Dapat melakukan branching dan merging dengan mudah dan aman.
+c. Dapat melacak perubahan dan siapa yang membuat perubahan pada source code.
+d. Memiliki performa yang cepat dan stabil dalam pengelolaan kode sumber yang besar.
+
+> Kelemahan
+a. Memiliki fitur yang kompleks dan terkadang membingungkan bagi pengguna yang kurang berpengalaman.
+b. Memerlukan pemahaman yang baik tentang konsep dasar seperti repository, commit, branching, dan merging.
+c. Sulit digunakan untuk pengelolaan file biner atau non-teks, seperti gambar atau video.
+
+● Gitlab
+
+- Pengenalan
+Gitlab merupakan salah satu layanan yang menyediakan layanan akses remote ke Git repositories. Gitlab juga dapat 
+meng-hosting project akan tetapi bersifat static. Gitlab mempermudah para developer dalam mengembangkan software 
+dengan menyediakan manajemen internal git repositories. Untuk saat ini gitlab sudah memiliki 4 versi, yaitu:
+1. Gitlab Enterprise Edition
+2. Gitlab.com
+3. Gitlab Community edition (Gitlab CE)
+4. Gitlab CI
+
+- Keunggulan Gitlab
+a. Pemrosesan CI/CD yang mudah digunakan
+b. Tingkat keamanan yang tinggi
+c. Fitur kolaborasi yang lebih unggul
+
+- Kekurangan Gitlab
+a. Susah untuk dipelajari pemula
+b. Konfigurasi yang rumit
+c. Tidak gratis sepenuhnya
+
+● Github
+
+- Pengenalan
+Github merupakan salah satu layanan hosting git repository. Github juga memungkinkan para developer untuk mengelola 
+source code-nya dengan version control system milik github atau lebih mudahnya github merupakan manajemen project, 
+sistem versioning code, sekaligus platform jejaringan sosial bagi para developer seluruh dunia.
+Github juga terintegrasi dengan layanan seperti amazon, Google Cloud dan code climate, yang mana github dapat menampung 
+sintaks dari 200 bahasa pemrograman yang tidak sama. Github memiliki 3 fitur penting yaitu forking, pull request dan merging.
+
+- Keunggulan Github
+a. Github gratis digunakan
+b. Proyek atau kode kita bisa diakses oleh pengguna lain,yang nantinya akan bermanfaat bagi kita untuk meningkatkan 
+proyek kita tersebut.
+c. Github dapat melacak perubahan yang terjadi di changelog,tentunya hal ini kita akan mengetahui perubahan apa saja 
+yang terjadi.
+d. Dengan adanya github kita bisa akses proyek orang lain yang mungkin akan membangkitkan semangat atau motivasi kita 
+untuk mengerjakan proyek lebih bagus.
+e. Mampu mengintegrasikan Development IDE seperti Visual Code Studio,Eclipse,dan lainnya
+
+- Kekurangan Github
+a. Keamanan di github tidak berlaku untuk repositori pribadi
+b. GitHub memerlukan koneksi internet yang stabil dan cukup cepat untuk mengakses dan menggunakan platform
+c. GitHub membatasi pengguna untuk membuat repositori pribadi, sehingga pengguna harus membayar untuk menggunakan 
+repositori pribadi dalam jumlah yang lebih besar.
+
+● Perbedaan Gitlab dan Github
+
+- Perbedaan Workflow
+a. Workflow pada GitHub, platform ini menekankan kepada kecepatan.
+b. Pada Github-flow master branch ini bertindak sebagai development branch utama. Dengan begitu, master branch akan 
+selalu siap untuk men-deploy.
+c. Workflow pada Gitlab menekankan pada aspek reliability nya.
+d. Pada workflow GitLab, Anda memungkinkan untuk membuat beberapa stable branches yang berada di luar master branch. 
+Yang artinya, workflow ini dapat memperlambat proses kinerja task untuk tim berukuran kecil.
+
+- Perbedaan Harga dan juga Paket Premium
+GitHub maupun GitLab telah menyediakan layanan mereka secara gratis. Namun untuk menggunakan fiturnya secara keseluruhan, 
+Anda mungkin akan membutuhkan paket yang premiumnya.
+
+> GitHub menyediakan telah 3 jenis paket yaitu ada free (gratis), Team, dan juga Enterprise.
+a. Paket Team, GitHub membanderolnya dengan harga 4 USD per bulan untuk per usernya.
+b. Paket Enterprise, GitHub membandrolnya dengan biaya sebesar 21 USD per bulan untuk satu user.
+
+> Di GitLab, paket yang sama pun telah ditawarkan. Mereka menyediakan paket Free (gratis), Premium dan juga Ultimate.
+a. Paket Premium GitLab ini ditujukan untuk koordinasi dalam skala kecil atau tim. Paket ini bisa didapatkan dengan 
+harga 19 USD per user/bulan.
+c. Paket Ultimate, GitLab membanderolnya dengan harga 99 USD per user/bulan.
+
+- Integrasi nya dengan Aplikasi Lain
+Jika membicarakan terkait integrasi, bisa dibilang GitHub ini memiliki keunggulan di sini. Saat ini GitHub bisa 
+berintegrasi dengan lebih dari 300 aplikasi gratis yang ada. Sedangkan GitLab, hanya mendukung integrasi dengan 
+lebih dari 30 aplikasi dan platform seperti Slack, Gmail, Microsoft Teams dan juga lainnya. Sedikitnya aplikasi 
+yang dapat berintegrasi dengan GitLab bukan menjadi penghalangnya untuk memiliki fungsionalitas yang sangat powerful.
+Pada kenyataannya, GitLab telah mengcover fungsi dari CI, time tracking dan juga backup default. Sedangkan Github 
+membutuhkan integrasi aplikasi pihak ketiga seperti Jenkins untuk dapat melakukannya.
